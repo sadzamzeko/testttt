@@ -788,6 +788,8 @@ ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 32px 0;
+  /* border:2px solid #EFEFEF; */
 }
 
 .card2 {
@@ -827,8 +829,17 @@ ul li a {
 .allHomeName{
     padding: 20px 0;
 }
-
-
+.allHomeStartPr{
+  font-size: 13px;
+  color: #616161;
+  text-decoration: line-through;
+}
+.allHomeDisc{
+  color: white;
+  border-radius: 30px;
+  padding: 6px;
+  background: #FF3333;
+}
 /* საზაფხულო წვეულება */
 
 .partyOffers {
