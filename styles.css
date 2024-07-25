@@ -803,20 +803,18 @@ ul li a {
   /* height: 414px; */
   margin-bottom: 20px;
   box-sizing: border-box;
-  border: 2px var(--card_border-color) solid;
   border-radius: 4px;
-  
-}
-.test{
-  width: 255px;
+  width: 263px;
   height: 395px;
   border-radius: 8px;
-  border: 2px solid #EFEFEF;
+  border: 1.5px solid #EFEFEF;
   display: block;
   position: relative;
+  
 }
-.testIMg{
-  width: 251px;
+
+.cardIMg{
+  width: 255px;
 }
 #arrowOne {
   display: inline-block;
@@ -825,7 +823,10 @@ ul li a {
   right: 12px;
 }
 .arrowW{
-  padding-left: 12px;
+  display: inline-block;
+  position: absolute;
+  top: 161px;
+  left: 12px;
 }
 .textFully {
   text-decoration: underline;
@@ -833,7 +834,7 @@ ul li a {
 
 .titleDesk{
   color: #717D96;
-  padding: 0 0 12px 12px;
+  padding: 0 0 22px 12px;
 }
 
 .priceText {
@@ -853,7 +854,7 @@ ul li a {
   font-weight: 700;
 }
 .allHomeName{
-  padding: 12px 0 12px 12px;
+  padding: 35px 0 15px 12px;
 }
 .allHomeStartPr{
   font-size: 13px;
@@ -864,13 +865,14 @@ ul li a {
   color: white;
   border-radius: 30px;
   padding: 6px;
+  background:#FF3333;
 
 }
 /* საზაფხულო წვეულება */
 
 .partyOffers {
   position: relative;
-  margin: 50px auto;
+
 }
 .partyOffers .mainImg {
   opacity: 70%;
@@ -880,7 +882,7 @@ ul li a {
 .partyOffersText {
   position: absolute;
   width: 400px;
-  left: 120px;
+  left: 82px;
   top: 72px;}
 .partyOffersText p {
   padding: 50px 0;
@@ -897,15 +899,14 @@ ul li a {
 
 .line{
   border: 1px solid #CBD2E0;
-  margin-bottom: 40px;}
+  margin: 40px 0 15px;}
 
   /* footer */
 
 footer {
   display: flex;
   justify-content: space-between;
-  width: 88%;
-  margin: 0 auto;
+  padding: 25px 5rem;
 }
 footer li {
   padding: 8px 0;
