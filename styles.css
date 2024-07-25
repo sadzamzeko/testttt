@@ -1,7 +1,13 @@
+@font-face {
+  font-family: Firago;
+  src: url(fonts/FiraGO-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: firago;
 }
 
 main {
@@ -776,58 +782,78 @@ ul li a {
 .card2Section {
   background-color: var(--card-container-background-color);
   height: auto;
-  width: 90%;
+  /* width: 100%; */
+  /* width: 1240px; */
   /* padding: 0 8%; */
-  margin: 60px 0;
-  /* margin: 0 auto; */
+  margin: 40px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
 }
 #cards2-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 32px 0;
-  /* border:2px solid #EFEFEF; */
+  margin-top: 32px;
 }
 
 .card2 {
-  width: 200px;
-  height: 414px;
+  /* width: 200px; */
+  /* height: 414px; */
   margin-bottom: 20px;
   box-sizing: border-box;
   border: 2px var(--card_border-color) solid;
   border-radius: 4px;
+  
 }
-
-#arrowOne {
+.test{
+  width: 255px;
+  height: 395px;
+  border-radius: 8px;
+  border: 2px solid #EFEFEF;
   display: block;
-  float: right;
+  position: relative;
 }
-
+.testIMg{
+  width: 251px;
+}
+#arrowOne {
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+}
+.arrowW{
+  padding-left: 12px;
+}
 .textFully {
   text-decoration: underline;
 }
 
 .titleDesk{
-    color: #717D96;
-    padding: 15px 0;
+  color: #717D96;
+  padding: 0 0 12px 12px;
 }
 
 .priceText {
   font-weight: bold;
+  padding: 0 0 12px 12px;
 }
 .cartButton{
-    background-color: #008BFF;
-    border-radius: 5px;
-    border: 2px solid #008BFF;
-    padding: 10px 35px;
-    color: white;
-    margin: 10px 0 ;
+  background-color: #008BFF;
+  border-radius: 5px;
+  border: 2px solid #008BFF;
+  padding: 10px 35px;
+  color: white;
+  margin: 12px 0 12px 12px ;
+  width: 90%;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 700;
 }
 .allHomeName{
-    padding: 20px 0;
+  padding: 12px 0 12px 12px;
 }
 .allHomeStartPr{
   font-size: 13px;
@@ -838,7 +864,7 @@ ul li a {
   color: white;
   border-radius: 30px;
   padding: 6px;
-  background: #FF3333;
+
 }
 /* საზაფხულო წვეულება */
 
@@ -850,16 +876,12 @@ ul li a {
   opacity: 70%;
   width: 100%;
   display: block;
-  margin: 0 auto;
-  /* width: 100%; */
-}
+  margin: 0 auto}
 .partyOffersText {
   position: absolute;
   width: 400px;
   left: 120px;
-  top: 72px;
-  /* background-color: aqua; */
-}
+  top: 72px;}
 .partyOffersText p {
   padding: 50px 0;
   font-weight: bold;
@@ -871,23 +893,24 @@ ul li a {
   border: 2px solid white;
   font-weight: bold;
   font-size: 17px;
-  /* vertical-align: middle;
-    text-align: center; */
-  padding: 10px 16px;
-}
+  padding: 10px 16px;}
 
-/* footer */
+.line{
+  border: 1px solid #CBD2E0;
+  margin-bottom: 40px;}
+
+  /* footer */
 
 footer {
   display: flex;
-  justify-content: space-around;
-  /* background-color: #00ffff ; */
-  /* margin: 0 auto; */
-  /* padding: 0 10%; */
+  justify-content: space-between;
+  width: 88%;
+  margin: 0 auto;
 }
 footer li {
   padding: 8px 0;
 }
 li:first-child {
   font-weight: bold;
+
 }

@@ -27,8 +27,9 @@ function generateCards2HTML(data) {
     data.forEach(item => {
         html += `
             <div class="card2">
-                <img src="assets/img/Icon Button.png" alt="arrowOne" class="arrowOne" id="arrowOne">
-                <img src="${item.imageURL}" alt="${item.name}" >
+            <div class="test">
+                <img src="assets/img/Icon Button.svg" alt="arrowOne" class="arrowOne" id="arrowOne">
+                <img src="${item.imageURL}" alt="${item.name}" class="testIMg">
                 <img src="assets/img/Frame 92.png" alt="arrowW" class="arrowW" id="arrowW">
                 <div class="card2-content">
                     <h4 class="allHomeName">${item.name}</h4>
@@ -43,7 +44,7 @@ function generateCards2HTML(data) {
                    
                     <br/>
                     <button type="button"  class="cartButton">კალათაში დამატება</button">
-               
+               </div>
                 </div>
             </div>
         `;
